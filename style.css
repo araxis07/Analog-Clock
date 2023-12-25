@@ -42,6 +42,7 @@ body{
 }
 .outer-clock-face::after,
 .outer-clock-face::before,
+
 .outer-clock-face .marking{
     content: '';
     position: absolute;
@@ -51,11 +52,6 @@ body{
     z-index: 0;
     left: 49%;
 }
-.outer-clock-face .marking{
-    background-color:  #bdbdcb;
-    width: 3px;
-}
-
 .outer-clock-face .marking.marking-one{
     transform: rotate(30deg);
 }
@@ -65,10 +61,10 @@ body{
 }
 
 .outer-clock-face .marking.marking-three{
-  transform: rotate(120deg);
-}
+    transform: rotate(120deg);
+  }
 
-.outer-clock-face ,.marking.marking-four{
+  .outer-clock-face .marking.marking-four{
     transform: rotate(150deg);
 }
 .inner-clock-face{
